@@ -1,0 +1,16 @@
+.header {
+    padding: 40px 0;
+}
+
+.header p {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .header p {
+        font-size: 18px;
+    }
+}
+

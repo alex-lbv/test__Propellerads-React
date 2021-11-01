@@ -1,0 +1,55 @@
+.form_control.error input,
+.form_control.error textarea {
+    border: 2px solid red;
+    color: red;
+}
+
+.form_control.error span {
+    color: red;
+}
+
+.form_summary_error {
+    padding: 5px;
+    color: red;
+    border: 1px solid red;
+}
+
+.form_control input,
+.form_control textarea {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 1);
+    color: rgba(0, 0, 0, 1);
+    padding: 10px;
+    resize: none;
+    font-family: inherit;
+}
+
+.form_control input::placeholder,
+.form_control textarea::placeholder {
+    font-size: 16px;
+    color: rgba(0, 0, 0, 1);
+}
+
+.form_control button {
+    margin: 0 0 0 auto;
+    width: 60%;
+    cursor: pointer;
+    display: block;
+    border: 1px solid rgba(0, 0, 0, 1);
+    padding: 10px;
+    background-color: rgb(244, 244, 244);
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, .3);
+    transition: background-color .3s ease-in-out, box-shadow .3s ease-in-out, transform .3s ease-in-out;
+}
+
+.form_control button:hover {
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.form_control button:active {
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .3);
+    transform: translate(2px, 2px);
+}
